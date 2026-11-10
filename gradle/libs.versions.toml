@@ -1,0 +1,14 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.21"
+junit = "4.13.2"
+firebaseBom = "35.0.2"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-analytics-ktx = { group = "com.google.firebase", name = "firebase-analytics" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
