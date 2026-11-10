@@ -20,7 +20,7 @@ Then add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("com.github.umirtech:AnalyticsKit:v1.0.0")
+    implementation("com.github.umirtech:AnalyticsKit:1.0.0")
 }
 ```
 
